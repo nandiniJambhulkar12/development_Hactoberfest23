@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sports Complex</title>
+    <style>
+        /* Add your CSS styles here */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 20px;
+        }
+        nav {
+            background-color: #f4f4f4;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            padding: 10px 20px;
+            color: #333;
+            font-weight: bold;
+        }
+        nav a:hover {
+            background-color: #ddd;
+        }
+        section {
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Sports Complex</h1>
+    </header>
+    <nav>
+        <a href="#about">About Us</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#events">Events</a>
+        <a href="#contact">Contact Us</a>
+    </nav>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>Provide information about the sports complex and its mission.</p>
+    </section>
+    <section id="facilities">
+        <h2>Facilities</h2>
+        <p>List the sports facilities available and their features.</p>
+    </section>
+    <section id="events">
+        <h2>Events</h2>
+        <p>Include information about upcoming events and programs.</p>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <p>Provide contact details and a contact form for inquiries.</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Sports Complex. All rights reserved.</p>
+    </footer>
+</body>
+</html>
